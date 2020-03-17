@@ -14,7 +14,7 @@ header {
   background-color: #efefef;
 }
 
-.playground-city {
+.list-group {
   background-color: #fff;
 }
 
@@ -29,6 +29,20 @@ table {
 th,
 td {
   border-bottom: 1px solid #333;
+}
+
+#input-container {
+  position: relative;
+}
+
+#input-container > img {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+}
+
+#input-container > input {
+  padding-left: 40px;
 }
 
 @media only screen and (min-width: 60em) {
