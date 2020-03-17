@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   <title>Playground Finder</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
-  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <header class="grid gutter-1-2 pad-t-1-2">
-    <img class="unit xs-2-3 s-1-2 m-1-2 l-1-2 push logo" src="images/logo.svg" alt="">
+  <header class="grid gutter-1-2">
+    <img class="unit xs-2-3 s-1-2 m-1-2 l-1-2 push-1-4 logo" src="images/logo.svg" alt="">
 
     <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
       <label for="search"></label>
-      <input id="search" type="search" name="search-bar" value="">
+      <input id="search" type="search" name="search-bar" value="" required>
 
     </div>
   </header>
 
   <div class="grid playgrounds gutter-1-2 pad-b-1-2">
     <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      <h2 class="pad-t-1-2 push-1-2">Nearest playgrounds</h2>
+      <h1 class="pad-t-1-2 push-1-2 giga">Nearest playgrounds</h1>
 
       <div class="grid box island-1-2 push-1-2">
         <p class="unit xs-1 s-1 m-1 l-1 bold push-0">373</p>
@@ -46,7 +46,7 @@
     </div>
   </div>
 
-  <div class="grid playground-city table-wrapper scrollable">
+  <div class="grid list-group table-wrapper scrollable">
     <div class="unit xs-1 s-1 m-2-3 l-2-3">
       <table>
 
