@@ -51,28 +51,28 @@ td {
     padding-right: 1em;
   }
 
-   .list-group {
-     padding-top: 1em;
-     padding-left: 1em;
-   }
+  .list-group {
+    padding-top: 1em;
+    padding-left: 1em;
+  }
 
-   .search {
-     padding-top: 1.5em;
-   }
+  .search {
+    padding-top: 1.5em;
+  }
 
-   #input-container {
-     position: relative;
-   }
+  #input-container {
+    position: relative;
+  }
 
-   #input-container > img {
-     position: absolute;
-     top: 30px;
-     left: 6px;
-   }
+  #input-container > img {
+    position: absolute;
+    top: 30px;
+    left: 6px;
+  }
 
-   #input-container > input {
-     padding-left: 40px;
-   }
+  #input-container > input {
+    padding-left: 40px;
+  }
 
 }
 
