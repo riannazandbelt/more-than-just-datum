@@ -51,8 +51,12 @@ td {
     width: 105%;
   }
 
- .margin {
-    margin: 0;
+  .margin {
+    margin-bottom: .5em;
+  }
+
+  caption {
+    margin-top: .35em;
   }
 
 }
@@ -93,6 +97,10 @@ td {
   .margin,
   .margins {
     margin: 0;
+  }
+
+  caption {
+    margin-top: 0;
   }
 
 }
