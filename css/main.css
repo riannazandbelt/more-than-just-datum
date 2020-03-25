@@ -45,6 +45,18 @@ td {
   padding-left: 40px;
 }
 
+@media only screen and (min-width: 25em) {
+
+  .img-flex {
+    width: 105%;
+  }
+
+ .margin {
+    margin: 0;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .play {
@@ -78,7 +90,8 @@ td {
     width: 90%;
   }
 
-  .margin {
+  .margin,
+  .margins {
     margin: 0;
   }
 
