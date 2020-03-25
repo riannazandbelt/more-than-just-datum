@@ -37,8 +37,8 @@ td {
 
 #input-container > img {
   position: absolute;
-  top: 4px;
-  left: 6px;
+  top: 6px;
+  left: 4px;
 }
 
 #input-container > input {
